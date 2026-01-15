@@ -29,4 +29,9 @@ public class AlumnoService {
 
         return errores;
     }
+
+	public void altaAlumnoService(AlumnoDTO alumnoDTO) {
+		// TODO Auto-generated method stub
+		
+	}
 }

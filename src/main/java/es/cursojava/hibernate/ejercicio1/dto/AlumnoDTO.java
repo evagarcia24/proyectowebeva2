@@ -8,14 +8,14 @@ public class AlumnoDTO {
 	private int edad;
 	private int codigo_curso;
 	
-	public AlumnoDTO() {}
+	public AlumnoDTO(String nombre2, String email2, Integer edad2) {}
 	
-	public AlumnoDTO(String nombre, String email, int edad, int codigo_curso) {
+	public AlumnoDTO(String nombre, String email, int edad) {
 		super();
 		this.nombre = nombre;
 		this.email = email;
 		this.edad = edad;
-		this.codigo_curso = codigo_curso;
+
 	}
 
 	public Long getId() {
